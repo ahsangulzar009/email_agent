@@ -1,0 +1,6 @@
+langchain
+langgraph
+langchain-deepseek
+dotenv
+pydantic
+langgraph-checkpoint-sqlite

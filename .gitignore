@@ -1,0 +1,46 @@
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets (API keys yahan hoti hain, kabhi push mat karna)
+.env
+.env.*
+!.env.example
+
+# Vector database (ingest.py se dobara ban jata hai)
+chroma_db/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checker caches
+.mypy_cache/
+.ruff_cache/
+
+# Logs
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+email.sqlite3
